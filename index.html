@@ -1,227 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Añadido para responsividad -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>UFPSO - WEB</title>
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Olivia Ros</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
-        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/css/estilos.css">
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/img/logo.png" class="img-fluid">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de mi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Trabajos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                    </li>
-
-                </ul>
-
-            </div>
-        </div>
-    </nav>
-
-    <header id="Hero-Section" class="text-light text-end py-5 mt-5">
-        <div class="container">
-            <div class="ms-auto col-12 col-md-7 ">
-                <h1 class="display-1 fw-bold my-5">
-                    Comidas del fin <br> del mundo
-                </h1>
-                <p class="my-5">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, accusamus iusto quibusdam
-                    dignissimos labore sequi. Cupiditate reiciendis eius dolore, illum adipisci harum voluptas iste
-                    mollitia inventore provident labore voluptatum nemo.
-                </p>
-                <div class="mb-5 pb-5">
-                    <button class="btn btn-lg btn-outline-info text-light me-4">Trabajos</button>
-                    <button class="btn btn-lg btn-info text-light">Contacto</button>
-                </div>
-            </div>
-        </div>
+  <body>
+    <!-- Estructura básica y etiquetas de sección -->
+    <header>
+      <h1>Bienvenido al Proyecto HTML5</h1>
     </header>
 
-
-    <section id="Acerca-de-mi" class="container text-center my-5">
-
-
-        <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
-
-        <p class="my-4">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio quisquam distinctio, odit laborum aliquam
-            earum itaque cum sequi, dolorem optio vol
+    <main>
+      <!-- Enlaces o hipervínculos -->
+      <section aria-label="Enlaces importantes"> 
+        <h2>Enlaces o Hipervínculos</h2>
+        <p>
+          Puedes visitar el sitio web de la
+          <a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">W3Schools</a> para
+          más información sobre HTML5.
         </p>
+      </section>
 
+      <!-- Etiquetas de tablas -->
+      <section aria-label="Información tabular">
+        <h2>Tablas en HTML5</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Edad</th>
+              <th>Ocupación</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Juan Pérez</td>
+              <td>28</td>
+              <td>Desarrollador Web</td>
+            </tr>
+            <tr>
+              <td>María López</td>
+              <td>32</td>
+              <td>Diseñadora Gráfica</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
-        <div class="row">
-            <div class="col-12 col-md-4">
-                <i class="fas fa-camera fa-3x my-3"></i>
-                <h3 class="my-3 fw-bold">Fotógrafa de comida</h3>
-                <p class="my-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
-                </p>
-            </div>
-            <div class="col-12 col-md-4">
-                <i class="fas fa-bullhorn fa-3x my-3"></i>
-                <h3 class="my-3 fw-bold">Crítica culinaria</h3>
-                <p class="my-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
-                </p>
-            </div>
-            <div class="col-12 col-md-4">
-                <i class="far fa-map fa-3x my-3"></i>
-                <h3 class="my-3 fw-bold">Bloggera de viajes</h3>
-                <p class="my-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
-                </p>
-            </div>
-        </div>
-    </section>
+      <!-- Etiquetas multimedia: imágenes y video -->
+      <section aria-label="Contenido multimedia">
+        <h2>Imágenes y Video en HTML5</h2>
+        <h3>Imagen:</h3>
+        <img
+          src="https://via.placeholder.com/600x300"
+          alt="Imagen de ejemplo"
+        />
 
+        <h3>Video:</h3>
+        <video controls>
+          <source
+            src="https://videos.pexels.com/video-files/11274330/11274330-uhd_2560_1440_25fps.mp4"
+            type="video/mp4"
+          />
+          Tu navegador no soporta video HTML5.
+        </video>
+      </section>
 
-    <section id="Mis-trabajos" class="my-5 p-5 bg-info">
+      <!-- Formularios y validaciones -->
+      <section aria-label="Formulario de contacto">
+        <h2>Formulario de Contacto</h2>
+        <form action="#" method="POST">
+          <label for="name">Nombre:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Ingresa tu nombre"
+            required
+          />
 
-        <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
+          <label for="email">Correo electrónico:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Ingresa tu email"
+            required
+          />
 
-        <div class="row">
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/card-1.jpg)"></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Asado en la Patagonia</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Explicabo iure sint, perspiciatis distinctio molestias nihil
-                            repudiandae neque rem adipisci repellendus libero illo quo
-                            blanditiis, velit quasi ad, recusandae voluptates officia.
-                        </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/card-2.jpg)"></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Papas del fin del mundo</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum,
-                            consequatur quos error fuga excepturi quo. Laudantium optio
-                            pariatur laboriosam modi, ea molestias?
-                        </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/card-3.jpg)"></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Salmones de Alaska</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Obcaecati facere quibusdam sint id laborum magni velit ducimus
-                            corporis facilis qui architecto dolor, accusamus eveniet
-                            exercitationem fugit. Quod autem neque ducimus.
-                        </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
+          <label for="message">Mensaje:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="Escribe tu mensaje"
+            required
+          ></textarea>
 
-    </section>
-
-
-
-    <section id="Contacto" class="container my-5">
-
-        <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
-
-        <p class="text-center my-4 d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Doloribus
-            sapiente, autem delectus totam expedita
-            animi corporis dolorem qui magnam, aspernatur officiis quasi culpa tempora est commodi. Voluptate beatae
-            tempora quaerat?</p>
-
-        <form>
-
-
-            <div class="form-group mb-4">
-                <label class="mb-2">Nombre</label>
-                <input class="form-control" placeholder="Nombre">
-            </div>
-
-            <div class="form-group mb-4">
-                <label class="mb-2">Correo electrónico</label>
-                <input class="form-control" placeholder="Correo electrónico" />
-            </div>
-
-
-            <div class="form-group">
-                <label class="mb-2">Mensaje</label>
-                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
-            </div>
-
-            <div class="my-3 text-end">
-                <button class="btn btn-info text-light">Enviar</button>
-            </div>
-
-
-
+          <input type="submit" value="Enviar" />
         </form>
-
-    </section>
-
-
+      </section>
+    </main>
 
     <footer class="bg-dark text-center text-light p-4">
-        <p class="mb-0">Olivia Ros 2019. Todos los derechos reservados.</p>
+      <p>Proyecto de Ejemplo en HTML5 - 2024</p>
     </footer>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-</body>
-
+  </body>
 </html>
